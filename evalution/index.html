@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Shojumaru&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shojumaru&display=swap"
+        rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=ZCOOL+KuaiLe&display=swap"
+        rel="stylesheet" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            margin: auto;
+            max-width: 1512px;
+            height: 588px;
+            background-image: url(./Rectangle.svg);
+            background-position: center;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .header>div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .header>div>img {
+            width: 106px;
+            height: 117px;
+            margin-top: 21px;
+        }
+
+        .header>div>p {
+            font-family: ZCOOL KuaiLe;
+            font-size: 32px;
+            font-weight: 400;
+            line-height: 32px;
+            text-align: center;
+            color: white;
+    
+        }
+
+        .header>div:nth-child(2) {
+            background-color: #191818;
+            width: Fixed (583px) px;
+            height: Hug (52px) px;
+            margin-top: 40px;
+            margin-left: -103px;
+            padding: 16px 24px 16px 24px;
+            gap: 24px;
+            border-radius: 20px;
+        }
+
+        .header>div:nth-child(2) span {
+            font-family: ZCOOL KuaiLe;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        .header>div:nth-child(3) span {
+            font-family: Poppins;
+            font-size: 12px;
+            font-weight: 600;
+            line-height: 18px;
+            text-align: left;
+            width: 95px;
+            height: 18px;
+            margin-top: 10px;
+            margin-left: 16px;
+        }
+
+        .header>div:nth-child(3) button {
+            font-family: Poppins;
+            font-size: 12px;
+            font-weight: 600;
+            line-height: 18px;
+            text-align: left;
+            width: 95px;
+            height: 18px;
+            margin-top: 10px;
+            margin-left: 16px;
+
+        }
+
+        .container>p {
+            font-family: Shojumaru;
+            font-size: 45px;
+            font-weight: 400;
+            line-height: 53.55px;
+            text-align: center;
+            width: 1262px;
+            height: 108px;
+            margin-top: 270px;
+            margin-left: -478px;
+            color: #fbf6f6;
+            /* margin: auto; */
+        }
+
+        .inner_cont {
+            margin: auto;
+            max-width: 1512px;
+            height: 588px;
+            background-color: black;
+        }
+
+        .second_cont {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .second_cont>div:nth-child(1) h3 {
+            color: #ed0137;
+            font-family: Shojumaru;
+            font-size: 44px;
+            font-weight: 400;
+            line-height: 52.36px;
+            text-align: left;
+            width: 389px;
+            height: 52px;
+            gap: 0px;
+            opacity: 0px;
+        }
+
+        .second_cont>div:nth-child(1) p {
+            font-family: ZCOOL KuaiLe;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 28.56px;
+            text-align: left;
+            color: #fffcfd;
+        }
+
+        .second_cont>div:nth-child(1) h4 {
+            font-family: ZCOOL KuaiLe;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 28.56px;
+            text-align: left;
+            color: white;
+        }
+
+        .second_cont>div:nth-child(1) button {
+            font-family: ZCOOL KuaiLe;
+            font-size: 20.03px;
+            font-weight: 400;
+            line-height: 20.03px;
+            text-align: left;
+            width: Hug (178.94px)px;
+            height: Hug (54.06px)px;
+            top: 1042px;
+            left: -435px;
+            padding: 17.03px 21.29px 17.03px 21.29px;
+            gap: 11.35px;
+            border-radius: 21.92px;
+            background-color: linear-gradient(93.73deg, #D51B46 10.19%, #EE6910 98.19%);
+        }
+
+        .image {
+            width: 795px;
+            height: 795px;
+            gap: 0px;
+            opacity: 0px;
+        }
+
+        .third_cont {
+            width: 1512px;
+            height: 716px;
+            opacity: 0.71px;
+            background-image: url(./Rectangle21.svg);
+
+        }
+
+        .img_cont {
+            display: flex;
+            justify-content: center;
+            gap: 70px;
+            margin: 112px 191.1px 139px 161px;
+        }
+
+        .third_cont>h1 {
+            font-family: Shojumaru;
+            font-size: 44px;
+            font-weight: 400;
+            line-height: 52.36px;
+            text-align: left;
+            width: 282px;
+            height: 52px;
+            margin-top: 64px;
+            margin-left: 613px;
+            gap: 0px;
+            opacity: 0px;
+            color: #ED0137;
+
+        }
+
+        .fourth_cont {
+            width: Fixed (1, 512px)px;
+            height: Fixed (3, 300px)px;
+            top: -6px;
+            left: -601px;
+            gap: 0px;
+            opacity: 0px;
+            background-color: #191818;
+;
+
+
+        }
+
+        .text_container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+        }
+
+        .text_container>div:nth-child(1) img {
+            width: 503px;
+            height: 503px;
+            top: 2086px;
+            left: -515px;
+            gap: 0px;
+            opacity: 0px;
+
+        }
+
+        .text_container>div:nth-child(2) h1 {
+            font-family: Shojumaru;
+            font-size: 44px;
+            font-weight: 400;
+            line-height: 52.36px;
+            text-align: left;
+            width: 119px;
+            height: 52px;
+            margin: 64px 189px 64px 189px;
+            color: #ED0137;
+            
+
+        }
+
+        .content {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            font-family: Shojumaru;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 26.48px;
+            color: white;
+            width: 640px;
+            height: 77px;
+            gap: 0px;
+            border-radius: 20px ;
+            background-color: #0F0F0F;
+            border: 1px 0px 0px 0px;
+            opacity: 0px;
+
+        }
+        .five_cont{
+            max-width: 1512px;
+            margin: auto;
+            background-color:black;
+        }
+        .five_cont>div:nth-child(1) img{
+            width: 200px;
+            height: 163px;
+            top: 64px;
+            left: 658px;
+            gap: 0px;
+            opacity: 0px;
+            
+
+        }
+        .items{
+            text-align: center;
+            color: white;
+            
+        }
+        .items>span{
+            font-family: Poppins;
+            font-size: 12.82px;
+            font-weight: 600;
+            line-height: 19.23px;
+            text-align: left;
+            
+
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div>
+                <img src="https://shorturl.at/cBMY0" alt="" />
+                <p>Saviour</p>
+            </div>
+            <div>
+                <span>Home</span>
+                <span>IDO</span>
+                <span>Tokenomics</span>
+                <span>Roadmap</span>
+                <span>Coming Soon</span>
+            </div>
+            <div>
+                <button>Connect Wallet</button>
+            </div>
+        </div>
+        <p>
+            Where Blockchain Heroes Thrive, Rescuing Dreams, Elevating Fortunes.
+        </p>
+    </div>
+    <div class="inner_cont">
+        <div class="second_cont">
+            <div>
+                <h3>Introduction</h3>
+                <p>
+                    We've all been in the mud once, and now we've decided to fight it
+                    out. Pay tribute to those pioneers of WEB3 and the warriors who
+                    dedicated their love to the blockchain. Save the lucky ones alive,
+                    join us to save the future! Our mission is to empower everyone to
+                    share wealth and succeed.
+                <h4> read more...</h4>
+                </p>
+                <button>Documents</button>
+            </div>
+
+            <div class="image">
+                <img src="./side_img.svg" alt="" />
+            </div>
+        </div>
+    </div>
+    <div class="third_cont">
+        <h1>Road Map</h1>
+        <div class="img_cont">
+            <div><img src="/Link.svg" alt=""></div>
+            <div><img src="/Link (1).svg" alt=""></div>
+            <div><img src="/Link (2).svg" alt=""></div>
+            <div><img src="/Link (3).svg" alt=""></div>
+        </div>
+
+    </div>
+    <div class="fourth_cont">
+        <div class="text_container">
+            <div><img src="./image 1.png" alt=""></div>
+            <div class="dista">
+                <h1>FAQ</h1>
+                <div class="content">
+                    <p>1</p>
+                    <p>Why choose "Savior"?</p>
+
+                </div>
+                <div class="content">
+                    <p>2</p>
+                    <p>Why is the IDO duration so long?</p>
+                </div>
+                <div class="content">
+                    <p>3</p>
+                    <p>When will trading go live?</p>
+                </div>
+                <div class="content">
+                    <p>4</p>
+                    <p>When can we claim the tokens?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="five_cont">
+        <div>
+            <img src="./Logo Savior red copy 1.svg" alt="">
+        </div>
+        <h1>SITEMAP</h1>
+        <div class="items">
+            <span>Home</span>
+            <span>IDO</span>
+            <span>Tokenomics</span>
+            <span>Road Map</span>
+            <span>Whitepaper</span>
+            <span>Pledge</span>
+            <span>NFT</span>
+            <span>Games</span>
+        </div>
+    </div>
+</body>
+
+</html>
